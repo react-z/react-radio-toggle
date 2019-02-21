@@ -2,17 +2,13 @@
 
 [![npm version](https://badge.fury.io/js/react-radio-toggle.svg)](https://badge.fury.io/js/react-radio-toggle)
 
-a simple radio button toggle component
+A simple radio button toggle component
 
 ## Install
 
 ``` js
-npm install react-radio-toggle --save
+yarn add react-radio-toggle
 ```
-
-## Versions
-
-#### `1.0.0` uses React `^0.15.1`
 
 ## Use
 
@@ -43,14 +39,20 @@ ReactDOM.render( <TestComponent />, document.getElementById('root') )
 
 ## Styles
 
-react-radio-toggle can be used with your own custom styles. A minimal [toggle.css](https://github.com/StevenIseki/react-radio-toggle/blob/master/example/public/toggle.css) style sheet is included as a guide.
+Uses styled-components 💅 for the base styling.
 
 ## Development
+    yarn
+    npm run dev
 
-    npm install
+## Build
+    yarn
     npm run build
-    npm test
-    npm start
+    npm login
+    npm version patch
+    git add -A
+    git push origin master
+    npm publish
 
 ## License
 
