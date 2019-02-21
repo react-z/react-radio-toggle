@@ -1,4 +1,4 @@
-import Toggle from '../src/Toggle' // 'react-radio-toggle'
+import Toggle from '../lib/Toggle' // 'react-radio-toggle'
 import ReactDOM from 'react-dom'
 import React, { Component } from 'react'
 

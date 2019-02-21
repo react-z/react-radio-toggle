@@ -15,26 +15,29 @@ yarn add react-radio-toggle
 ``` js
 import Toggle from 'react-radio-toggle'
 import ReactDOM from 'react-dom'
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 
 class TestComponent extends Component {
-
   toggled(value) {
     console.log(value)
   }
 
-  render () {
+  render() {
     let items = ['apple', 'orange', 'lemon', 'peach']
     return (
       <div>
-        <Toggle items={items} checked='apple' name='toggleFruits'
-                onToggle={this.toggled.bind(this)} />
+        <Toggle
+          items={items}
+          checked="apple"
+          name="toggleFruits"
+          onToggle={this.toggled.bind(this)}
+        />
       </div>
     )
   }
 }
 
-ReactDOM.render( <TestComponent />, document.getElementById('root') )
+ReactDOM.render(<TestComponent />, document.getElementById('root'))
 ```
 
 ## Styles
