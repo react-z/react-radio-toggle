@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle renders correctly and matches snapshot 1`] = `
+<div
+  className="sc-bdVaJa kVuGjP"
+  id="toggleFruits"
+>
+  <label>
+    <input
+      defaultChecked={true}
+      name="toggleFruits"
+      onClick={[Function]}
+      type="radio"
+    />
+    <span>
+      apple
+    </span>
+  </label>
+  <label>
+    <input
+      name="toggleFruits"
+      onClick={[Function]}
+      type="radio"
+    />
+    <span>
+      orange
+    </span>
+  </label>
+  <label>
+    <input
+      name="toggleFruits"
+      onClick={[Function]}
+      type="radio"
+    />
+    <span>
+      lemon
+    </span>
+  </label>
+  <label>
+    <input
+      name="toggleFruits"
+      onClick={[Function]}
+      type="radio"
+    />
+    <span>
+      peach
+    </span>
+  </label>
+</div>
+`;
